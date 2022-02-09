@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     res.send({hi: 'there'});
 });
 
-app.get('/test', (req, res) => {
+app.get('/test3', (req, res) => {
     res.send({hi: 'test3'});
 });
 
