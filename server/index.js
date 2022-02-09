@@ -5,8 +5,8 @@ app.get('/', (req, res) => {
     res.send({hi: 'there'});
 });
 
-app.get('/test3', (req, res) => {
-    res.send({hi: 'test3'});
+app.get('/test4', (req, res) => {
+    res.send({hi: 'test4'});
 });
 
 app.listen(5000);
